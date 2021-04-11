@@ -12,6 +12,8 @@ To provision webservers, simple bash script is used (**web_setup.sh**)
 
 ## Terraform output
 
-```public_dns = "<< PUBLIC DNS OF ALB >>" (you can access websites here)
+```
+public_dns = "<< PUBLIC DNS OF ALB >>" (you can access websites here)
 public_instance_id = "<< BASTION INSTANCE ID >>"
-public_instance_ip = "<< IP ADDRESS >>" (you can ssh to this host using your ssh-keys)```
+public_instance_ip = "<< IP ADDRESS >>" (you can ssh to this host using your ssh-keys)
+```
