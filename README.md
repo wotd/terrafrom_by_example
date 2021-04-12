@@ -2,6 +2,8 @@
 
 ## Infrastructure description
 
+![infrastructure](terraform_infra.png)
+
 **Two Webservers** are located in private subnets in two different AZs. To access them with SSH you should use **Bastion instance** (which is also deployed). 
 Network (internet) access during webservers deployment process is provided by **NAT Instance** located in public network. 
 Websites can be browsed thanks **ALB**.
